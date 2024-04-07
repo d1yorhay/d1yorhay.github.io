@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}
+
+body {
+  background-color: #101220;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.title {
+  margin-bottom: 30px;
+  color: #cccccc;
+  transition-duration: 1s;
+}
+
+.title:hover {
+  color: #505050;
+}
+
+.title span {
+  color: #eeeeee;
+}
+
+.list_menu {
+  color: #BCBCBC;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.list_menu a{
+  color: #BCBCBC;
+  transition-duration: 1s;
+}
+
+.list_menu a:hover {
+  color: #ffffff;
+}
+
+.list_desk a, pre{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
