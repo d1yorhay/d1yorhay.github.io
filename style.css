@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://db.onlinewebfonts.com/c/72c75860d89e91a517dfb1e7d308c180?family=Courier+New'); 
+
 
 * {
   margin: 0;
@@ -12,21 +14,24 @@
 }
 
 body {
-  background-color: #101220;
   display: flex;
+  background-color: #101220;
   flex-direction: column;
   height: 100vh;
-  align-items: center;
-  justify-content: center;
 }
 
 main {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   flex-wrap: nowrap;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
   color: #cccccc;
   transition-duration: 1s;
@@ -59,8 +64,8 @@ main {
 }
 
 .list_desk a, pre{
+  font-family: "Courier New", monospace;
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
   line-height: 20px;
   margin-bottom: 20px;
 }
